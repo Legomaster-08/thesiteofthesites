@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sites Made at School — Liquid Glass</title>
+<style>
+  body {
+    margin: 0;
+    font-family: jetbrains mono;
+    background: #0a0a0a;
+    color: white;
+    text-align: center;
+  }
+
+  h1 {
+    margin-top: 60px;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  p.subtitle {
+    margin-top: 10px;
+    font-size: 1rem;
+    opacity: 0.7;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 60px;
+    max-width: 1400px;
+    margin: auto;
+  }
+
+  .card {
+    position: relative;
+    border-radius: 22px;
+    overflow: hidden;
+    backdrop-filter: blur(30px) saturate(160%);
+    -webkit-backdrop-filter: blur(30px) saturate(160%);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 60px rgba(255, 255, 255, 0.15);
+  }
+
+  .card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+  }
+
+  .card-content {
+    padding: 18px 20px 25px;
+    text-align: left;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+
+  .card-desc {
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+
+  footer {
+    margin-top: 60px;
+    padding-bottom: 90px;
+    opacity: 0.8;
+    line-height: 1.7em;
+  }
+
+  a {
+    color: #82b6ff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+
+<h1>Sites made at school</h1>
+<p class="subtitle">This is a collection of sites we made at school, this one included.</p>
+
+<div class="cards">
+  <div class="card">
+    <img src="images/site1.jpg" alt="Hell Yeah" />
+    <div class="card-content">
+      <a href="https://legomaster-08.github.io/hellyeah-site" class="card-title">Hell Yeah</a>
+      <div class="card-desc">A simple website made by me to learn base HTML.</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/site2.jpg" alt="El Gatito Panadero" />
+    <div class="card-content">
+      <a href="https://legomaster-08.github.io/elgatitopanadero" class="card-title">El Gatito Panadero</a>
+      <div class="card-desc">Site made by my good friend Fabio, also to test HTML skills.</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/site3.jpg" alt="Games Wiki" />
+    <div class="card-content">
+      <a href="https://andrea-430.github.io/Games-WIki/" class="card-title">Games Wiki</a>
+      <div class="card-desc">Games wiki made by my brotha from anotha motha, Andrea.</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/site4.jpg" alt="Balatro Naneinf" />
+    <div class="card-content">
+      <a href="https://matthew-aglio.github.io/Sito-balatro/" class="card-title">Naneinf How to</a>
+      <div class="card-desc">Little wiki on how to get naneinf on Balatro and win the game, made by Matthew.</div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>Follow us on Youtube!</p>
+  <p>My Youtube: <a href="https://www.youtube.com/@mr.chitarra">mr.chitarra
+
+  </a><br>Matthew's Youtube: <a href="https://www.youtube.com/@elbalatreo">ElBalatreo:3</a></p><br>
+
+  <p>Follow us on Instagram!</p>
+  <p>My Instagram: <a href="https://www.instagram.com/mr.chitarra/">mr.chitarra</a><br>
+    Matthew's Instagram: <a href="https://www.instagram.com/matteo_forti07/">Matthew</a><br>
+    Andrea's Instagram: <a href="https://www.instagram.com/__andrea_marino__/">Andrea</a><br>
+    Fabio's Instagram: <a href="https://www.instagram.com/fabio_azzaro7/">Fabio</a></p>
+</footer>
+
+</body>
+</html>
